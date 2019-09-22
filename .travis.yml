@@ -18,5 +18,6 @@ deploy:
   app: "dockfend"
   env: "Dockfend-env"
   bucket_name: "elasticbeanstalk-us-east-2-745113398864"
+  only_create_app_version: "true"
   on:
     branch: master
