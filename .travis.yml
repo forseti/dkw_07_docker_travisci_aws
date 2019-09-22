@@ -18,6 +18,5 @@ deploy:
   app: frontend
   env: "Frontend-env"
   bucket_name: elasticbeanstalk-us-east-2-745113398864
-  bucket_path: "frontend"
   on:
     branch: master
