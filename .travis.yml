@@ -15,8 +15,8 @@ deploy:
   secret_access_key:
     secure: "$AWS_SECRET_ACCESS_KEY"
   region: "us-east-2"
-  app: "dockfrontend"
-  env: "Dockfrontend-env"
+  app: "dockfend"
+  env: "Dockfend-env"
   bucket_name: "elasticbeanstalk-us-east-2-745113398864"
   on:
     branch: master
