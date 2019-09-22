@@ -11,8 +11,8 @@ script:
 deploy:
   provider: elasticbeanstalk
   region: "us-east-2"
-  app: "frontend"
-  env: "Frontend-env"
+  app: "dockfrontend"
+  env: "Dockfrontend-env"
   bucket_name: "elasticbeanstalk-us-east-2-745113398864"
   on:
     branch: master
