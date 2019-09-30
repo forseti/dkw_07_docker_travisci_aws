@@ -14,10 +14,10 @@ deploy:
     secure: "$AWS_ACCESS_KEY_ID"
   secret_access_key:
     secure: "$AWS_SECRET_ACCESS_KEY"
-  region: "us-east-2"
+  region: "$REGION_ID"
   app: "dockfend"
   env: "Dockfend-env"
-  bucket_name: "elasticbeanstalk-us-east-2-745113398864"
+  bucket_name: "elasticbeanstalk-$REGION_ID-$AWS_ACCOUNT_ID"
   only_create_app_version: "true"
   on:
     branch: master
